@@ -1,36 +1,25 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
-                             http://maven.apache.org/maven-v4_0_0.xsd">
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>my-webapp</artifactId>
+  <version>1.0.0</version>
+  <packaging>war</packaging>
 
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.example</groupId>
-    <artifactId>mywebapp</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
-    
-    <dependencies>
-        <!-- Add your dependencies here -->
-    </dependencies>
-    
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.2.3</version>
-                <configuration>
-                    <warName>mywebapp</warName>
-                    <webResources>
-                        <resource>
-                            <directory>${project.build.directory}/classes</directory>
-                            <targetPath>WEB-INF/classes</targetPath>
-                        </resource>
-                    </webResources>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+  <dependencies>
+    <!-- add your project dependencies here -->
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.3</version>
+        <configuration>
+          <warName>my-webapp</warName>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
-
-
