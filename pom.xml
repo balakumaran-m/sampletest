@@ -1,7 +1,7 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.example</groupId>
-  <artifactId>my-webapp</artifactId>
+  <groupId>org.jboss.as.plugins</groupId>
+  <artifactId>jboss-as-maven-plugin</artifactId>
   <version>1.0.0</version>
   <packaging>war</packaging>
 
