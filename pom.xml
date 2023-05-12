@@ -18,6 +18,9 @@
         <configuration>
           <warName>my-webapp</warName>
           <failOnMissingWebXml>false</failOnMissingWebXml>
+           <hostname>localhost</hostname> 
+          <username>laksh</username> 
+          <password>laksh</password>
         </configuration>
       </plugin>
     </plugins>
