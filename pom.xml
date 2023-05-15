@@ -16,7 +16,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.3</version>
         <configuration>
-          <warName>my-webapp</warName>
+          <warName>bala-app</warName>
           <failOnMissingWebXml>false</failOnMissingWebXml>
            <hostname>localhost</hostname> 
           <username>laksh</username> 
